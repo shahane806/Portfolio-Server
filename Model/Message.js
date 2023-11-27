@@ -6,7 +6,7 @@ const MessageSchema = mongoose.Schema({
     subject: { type: String, required: false },
     email: { type: String, required: false },
     mobile: { type: String, required: false },
-    message: { type: Number, required: false },
+    message: { type: String, required: false },
   },
 
   MessageSend: { type: Date, default: Date.now },
